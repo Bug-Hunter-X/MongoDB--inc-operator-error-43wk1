@@ -1,0 +1,1 @@
+This repository contains a simple example demonstrating a common error when using the $inc operator in MongoDB updateOne method. The error arises when attempting to increment a field that does not exist. The solution involves using the $setOnInsert operator to handle cases where the field might be absent.
